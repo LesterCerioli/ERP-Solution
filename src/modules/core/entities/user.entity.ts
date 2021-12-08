@@ -9,7 +9,7 @@ export class User {
         public emailAddress: Email,
         public password: string,
         public createdOn: Date,
-        public createdBy
+        public createdBy: string,
     ) {
 
     }
